@@ -16,7 +16,6 @@ export async function POST(
 
     const { content, role } = await req.json();
     
-    // Validate chatId is a valid ObjectId
     if (!mongoose.Types.ObjectId.isValid(params.chatId)) {
       return new NextResponse('Invalid chat ID', { status: 400 });
     }
