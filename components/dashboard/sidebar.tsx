@@ -21,7 +21,7 @@ export function Sidebar({ className }: SidebarProps) {
       icon: Home,
     },
     {
-      label: "Chat",
+      label: "AI Companion",
       href: "/chat",
       icon: MessageSquare,
     },
